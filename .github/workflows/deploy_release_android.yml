@@ -2,7 +2,6 @@ name: Deploy experimental android release
 on:
   workflow_dispatch:
 
-
 jobs:
   call-release-build:
     uses: ./.github/workflows/android_build.yml
