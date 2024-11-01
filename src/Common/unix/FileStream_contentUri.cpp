@@ -118,5 +118,5 @@ void FileStreamContentUri::writeLine(const char* str)
 FileStreamContentUri::FileStreamContentUri(const std::string& uri)
     : m_contentUriStream(uri)
 {
-    m_isValid = m_contentUriStream->is_open();
+    m_isValid = m_contentUriStream.is_open();
 }
